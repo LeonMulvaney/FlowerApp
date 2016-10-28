@@ -19,6 +19,9 @@
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
 
+        <item name="android:radius">3dip</item>
+
+
 
     </style>
 

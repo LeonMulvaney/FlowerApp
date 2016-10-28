@@ -18,7 +18,7 @@
         android:layout_height="90dp"
         android:text = "@string/catalogue"
         android:textColor = "#FFFFFF"
-        android:background= "@color/colorAccent"
+        android:background= "@drawable/btn2rounded"
         android:layout_marginBottom="20dp"
         android:onClick="viewCatalogue"
         />
@@ -29,7 +29,7 @@
         android:layout_height="90dp"
         android:text = "@string/FloristsAZ"
         android:textColor = "#FFFFFF"
-        android:background= "@color/colorAccent"
+        android:background= "@drawable/btn2rounded"
         android:layout_marginBottom="20dp"
         android:onClick="viewFloristsAZ"
 
@@ -41,7 +41,7 @@
         android:layout_height="90dp"
         android:text = "@string/floristsByLocation"
         android:textColor = "#FFFFFF"
-        android:background= "@color/colorAccent"
+        android:background= "@drawable/btn2rounded"
         android:layout_marginBottom="20dp"
         />
 
@@ -51,7 +51,7 @@
         android:layout_height="90dp"
         android:text = "@string/flowerArchive"
         android:textColor = "#FFFFFF"
-        android:background= "@color/colorAccent"
+        android:background= "@drawable/btn2rounded"
         android:onClick="viewFlowerArchive"
 
         />
