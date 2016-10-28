@@ -17,4 +17,12 @@ public class MainActivity extends AppCompatActivity {
         Intent viewCatalogue = new Intent(this,catalogue.class);
         startActivity(viewCatalogue);
     }
+
+    public void viewFloristsAZ (View view) {
+        Intent viewFloristsAZ = new Intent(this, floristsaz.class);
+        startActivity(viewFloristsAZ);
+    }
+
+
 }
+

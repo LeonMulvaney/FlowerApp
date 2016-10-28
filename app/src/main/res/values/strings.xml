@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">FlowerApp</string>
+
+    <!-- HomePage -->
+    <string name="catalogue">Catalogue</string>
+    <string name="FloristsAZ">Florists A-Z</string>
+    <string name="floristsByLocation">Florists A-Z </string>
+    <string name="flowerArchive">Flower Archive</string>
+
+    <string name="home">Return to Home</string>
+    <!-- Catalogue Section-->
+
+
+    <!-- Florists A-Z Section-->
+    <string name="southCountyDublin">South County Dublin</string>
+    <string name="northCountyDublin">North County Dublin</string>
+    <string name="dublinCity">Dublin City</string>
+
 </resources>

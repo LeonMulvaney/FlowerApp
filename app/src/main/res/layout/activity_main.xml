@@ -15,7 +15,7 @@
         android:id="@+id/CatalogueHomeBtn"
         android:layout_width="fill_parent"
         android:layout_height="90dp"
-        android:text = "Catalogue"
+        android:text = "@string/catalogue"
         android:textColor = "#FFFFFF"
         android:background= "@color/colorAccent"
         android:layout_marginBottom="20dp"
@@ -26,10 +26,11 @@
         android:id="@+id/FloristsAZHomeBtn"
         android:layout_width="fill_parent"
         android:layout_height="90dp"
-        android:text = "Florists A-Z"
+        android:text = "@string/FloristsAZ"
         android:textColor = "#FFFFFF"
         android:background= "@color/colorAccent"
         android:layout_marginBottom="20dp"
+        android:onClick="viewFloristsAZ"
 
         />
 
@@ -37,7 +38,7 @@
         android:id="@+id/FloristLocationHomeBtn"
         android:layout_width="fill_parent"
         android:layout_height="90dp"
-        android:text = "Florists By Location"
+        android:text = "@string/floristsByLocation"
         android:textColor = "#FFFFFF"
         android:background= "@color/colorAccent"
         android:layout_marginBottom="20dp"
@@ -47,7 +48,7 @@
         android:id="@+id/FlowerTypesHomeBtn"
         android:layout_width="fill_parent"
         android:layout_height="90dp"
-        android:text = "Flower Types"
+        android:text = "@string/flowerArchive"
         android:textColor = "#FFFFFF"
         android:background= "@color/colorAccent"
 
