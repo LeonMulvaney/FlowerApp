@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".catalogue" />
         <activity android:name=".floristsaz" />
-        <activity android:name=".flowerArchive"></activity>
+        <activity android:name=".flowerArchive" />
+        <activity android:name=".home"></activity>
     </application>
 
 </manifest>

@@ -13,19 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void viewCatalogue(View view){
-        Intent viewCatalogue = new Intent(this,catalogue.class);
-        startActivity(viewCatalogue);
-    }
-
-    public void viewFloristsAZ (View view) {
-        Intent viewFloristsAZ = new Intent(this, floristsaz.class);
-        startActivity(viewFloristsAZ);
-    }
-
-    public void viewFlowerArchive (View view) {
-        Intent viewFlowerArchive = new Intent(this, flowerArchive.class);
-        startActivity(viewFlowerArchive);
+    public void viewHome(View view){
+        Intent viewHome = new Intent(this,home.class);
+        startActivity(viewHome);
     }
 
 
