@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.leondesigns.flowerapp.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/CatalogueHomeBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text = "Catalogue"
+        android:textColor = "#FFFFFF"
+        android:background= "@color/colorAccent"
+        android:layout_marginBottom="20dp"
+        android:onClick="viewCatalogue"
+        />
+
+    <Button
+        android:id="@+id/FloristsAZHomeBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text = "Florists A-Z"
+        android:textColor = "#FFFFFF"
+        android:background= "@color/colorAccent"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/FloristLocationHomeBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text = "Florists By Location"
+        android:textColor = "#FFFFFF"
+        android:background= "@color/colorAccent"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/FlowerTypesHomeBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text = "Flower Types"
+        android:textColor = "#FFFFFF"
+        android:background= "@color/colorAccent"
+
+        />
+
+
+</LinearLayout>
