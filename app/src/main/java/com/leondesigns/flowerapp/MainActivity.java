@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(viewFloristsAZ);
     }
 
+    public void viewFlowerArchive (View view) {
+        Intent viewFlowerArchive = new Intent(this, flowerArchive.class);
+        startActivity(viewFlowerArchive);
+    }
+
 
 }
 

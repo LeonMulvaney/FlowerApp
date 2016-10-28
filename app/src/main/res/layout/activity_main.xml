@@ -51,6 +51,7 @@
         android:text = "@string/flowerArchive"
         android:textColor = "#FFFFFF"
         android:background= "@color/colorAccent"
+        android:onClick="viewFlowerArchive"
 
         />
 

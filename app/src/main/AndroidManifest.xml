@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".catalogue" />
-        <activity android:name=".floristsaz"></activity>
+        <activity android:name=".floristsaz" />
+        <activity android:name=".flowerArchive"></activity>
     </application>
 
 </manifest>
