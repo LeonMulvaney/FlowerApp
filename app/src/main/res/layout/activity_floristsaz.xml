@@ -41,13 +41,14 @@
         />
 
 
-
     <Button
         android:id="@+id/FloristsDublinCity"
         android:layout_width="fill_parent"
         android:layout_height="75dp"
         android:text = "@string/dublinCity"
+        android:layout_marginBottom="15dp"
         style="@style/roseButton"
         />
+
 
 </LinearLayout>
