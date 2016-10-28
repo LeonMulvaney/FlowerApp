@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
 //login button goes to homepage though
     public void viewHome(View view){
-        Intent viewHome = new Intent(this,home.class);
+        Intent viewHome = new Intent(this,home_main.class);
         startActivity(viewHome);
     }
 

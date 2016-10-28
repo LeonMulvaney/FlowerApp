@@ -17,22 +17,6 @@ public class catalogue extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_catalogue);
 
-        String[] cat = {"Old Rose", "Red Rose","Lucky Star","Allure", "Old Rose", "Red Rose","Lucky Star","Allure", "Old Rose", "Red Rose","Lucky Star","Allure"};
-
-        ListAdapter listAdapter = new customAdapter(this, cat);
-
-        ListView CatalogueListView = (ListView)findViewById(R.id.CatalogueListView);
-        CatalogueListView.setAdapter(listAdapter);
-
-        CatalogueListView.setOnItemClickListener(
-                new AdapterView.OnItemClickListener(){
-                    @Override
-                    public void onItemClick(AdapterView<?> perant, View view, int position, long id) {
-                        String cat = String.valueOf(perant.getItemAtPosition(position));
-                        Toast.makeText(catalogue.this, cat, Toast.LENGTH_LONG).show();
-                    }
-                }
-        );
     }
 
     public void viewHome(View view){
