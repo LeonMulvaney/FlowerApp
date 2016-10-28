@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">FlowerApp</string>
+    <string name="app_name">Dublin Florist Association</string>
+
+    <!-- Login Section -->
+    <string name="login">Login</string>
+    <string name="register">Register Here</string>
 
     <!-- HomePage -->
     <string name="catalogue">Catalogue</string>
