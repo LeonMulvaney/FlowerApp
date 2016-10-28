@@ -14,7 +14,7 @@ public class floristsaz extends AppCompatActivity {
     }
 
     public void viewHome(View view){
-        Intent viewHome = new Intent(this,home.class);
+        Intent viewHome = new Intent(this,home_main.class);
         startActivity(viewHome);
     }
 
