@@ -22,6 +22,7 @@
             android:name=".home_main"
             android:label="@string/title_activity_home_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>
