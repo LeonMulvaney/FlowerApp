@@ -9,18 +9,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.leondesigns.flowerapp.floristsaz"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <Button
         android:id="@+id/returnToHomeFloristsAZ"
-        android:layout_width="fill_parent"
+        android:layout_width="363dp"
         android:layout_height="50dp"
         android:text = "Return to home"
         android:textColor = "#FFFFFF"
         android:background= "@color/colorAccent"
         android:layout_marginBottom="15dp"
         android:onClick="viewHome"
-        />
+        android:layout_weight="0.01" />
 
     <Button
         android:id="@+id/FloristsDublinSouth"
