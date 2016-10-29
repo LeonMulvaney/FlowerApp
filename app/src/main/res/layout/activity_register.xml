@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/thinMarginsHorizontal"
+    android:paddingRight="@dimen/thinMarginsHorizontal"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.leondesigns.flowerapp.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/newlogo"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/emailInput"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:singleLine="false"
+        android:selectAllOnFocus="true"
+        android:layout_weight="0.07"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/nameInput"
+        android:hint="Enter Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_weight="0.07"
+        android:layout_marginBottom="15dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phoneInput"
+        android:hint="Enter Phone Number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_weight="0.07"
+        android:layout_marginBottom="15dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/addressInput"
+        android:hint="Enter Address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_weight="0.07"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        style="@style/roseButton"
+        android:background="@drawable/btn1rounded"
+        android:text="Register"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:onClick="registerButtonClicked" />
+</LinearLayout>

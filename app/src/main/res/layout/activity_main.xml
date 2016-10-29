@@ -85,6 +85,6 @@
         android:background="@drawable/btn1rounded"
         android:text="@string/register"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        />
+        android:onClick="viewRegisterUser(RegisterUser)" />
 
 </LinearLayout>
